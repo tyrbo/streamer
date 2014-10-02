@@ -46,3 +46,9 @@ gem 'ember-source', '1.5.0' # or the version you need
 
 gem 'omniauth'
 gem 'omniauth-twitch'
+
+gem 'pg'
+
+group :development do
+  gem 'pry'
+end
