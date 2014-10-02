@@ -31,3 +31,7 @@ group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.0.0'
 end
+
+group :test do
+  gem 'codeclimate-test-reporter', require: nil
+end
