@@ -49,6 +49,8 @@ gem 'omniauth-twitch'
 
 gem 'pg'
 
+gem 'figaro'
+
 group :development do
   gem 'pry'
 end
