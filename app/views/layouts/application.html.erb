@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>StreamWatcher</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>StreamWatcher</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <span class="navbar-brand">Stream Watcher</span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <% if current_user %>
+            <li class="dropdown">
+              <%= link_to '#', class: 'dropdown-toggle', data: { toggle: 'dropdown' } do %>
+                <%= image_tag current_user.logo.sub('300x300', '28x28') %> <%= current_user.display_name %>
+                <span class="caret"></span>
+              <% end %>
+              <ul class="dropdown-menu" role="menu">
+                <li><%= link_to 'Sign Out', '#' %></li>
+              </ul>
+            </li>
+          <% else %>
+            <li>
+              <%= link_to '/auth/twitch' do %>
+                <%= image_tag 'twitch.png' %>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
