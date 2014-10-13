@@ -1,4 +1,5 @@
 //= require ./pusher
+//= require ./ember-pusher
 //= require ./store
 //= require_tree ./mixins
 //= require_tree ./models

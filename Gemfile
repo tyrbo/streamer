@@ -30,6 +30,7 @@ end
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'qunit-rails'
 end
 
 group :test do
