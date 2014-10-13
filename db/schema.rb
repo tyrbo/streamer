@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141002193948) do
+ActiveRecord::Schema.define(version: 20141008205511) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "games", force: true do |t|
+    t.boolean "live"
+  end
 
   create_table "users", force: true do |t|
     t.string "display_name"

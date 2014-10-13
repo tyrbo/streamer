@@ -21,6 +21,11 @@
 //= require ./app
 
 // for more details see: http://emberjs.com/guides/application/
-App = Ember.Application.create();
+App = Ember.Application.create({
+  LOG_TRANSITIONS: true,
+  LOG_TRANSITIONS_INTERNAL: true,
+  LOG_VIEW_LOOKUPS: true,
+  PUSHER_OPTS: { key: '2ea03abcdd489c0ec28a', connection: {} }
+});
 
 //= require_tree .
