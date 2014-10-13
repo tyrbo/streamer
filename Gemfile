@@ -35,5 +35,6 @@ group :development, :test do
 end
 
 group :test do
+  gem 'sqlite3'
   gem 'codeclimate-test-reporter', require: nil
 end
