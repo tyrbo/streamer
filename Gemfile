@@ -8,7 +8,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'faraday'
+gem 'faraday', '0.8.9'
+gem 'active_model_serializers'
 
 gem 'puma'
 gem 'skylight'
@@ -37,4 +38,5 @@ end
 group :test do
   gem 'sqlite3'
   gem 'codeclimate-test-reporter', require: nil
+  gem 'vcr'
 end

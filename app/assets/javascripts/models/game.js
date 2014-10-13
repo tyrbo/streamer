@@ -1,5 +1,16 @@
 var attr = DS.attr;
 
+App.GameSerializer = DS.RESTSerializer.extend(DS.EmbeddedRecordsMixin, {
+  attrs: {
+    contestants: { embedded: 'always' }
+  }
+});
+
 App.Game = DS.Model.extend({
-  live: attr()
+  match_name: attr('string'),
+  max_games: attr('string'),
+  winner_id: attr('string'),
+  live: attr('boolean'),
+  finished: attr('boolean'),
+  contestants: DS.hasMany('contestant')
 });

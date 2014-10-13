@@ -1,12 +1,11 @@
-App.GamesController = Ember.ObjectController.extend(EmberPusher.Bindings, {
+App.GamesController = Ember.ArrayController.extend(EmberPusher.Bindings, {
   logPusherEvents: true,
+
   PUSHER_SUBSCRIPTIONS: {
-    game: ['stats-event', 'pusher:subscription_succeeded']
+    game: ['stats-event']
   },
+
   actions: {
-    'pusher:subscriptionSucceeded': function() {
-      console.log('Connected');
-    },
     statsEvent: function(data) { console.log(data); }
   }
 });

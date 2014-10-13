@@ -1,0 +1,514 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://na.lolesports.com/api/programming.json?parameters%5Bmethod%5D=all&parameters%5Btournament%5D=175%2C177%2C178%2C179%2C176&parameters%5Bexpand_matches%5D=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Mon, 13 Oct 2014 18:45:19 GMT
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d0829248819d2a0e0e60a0587a0874e081413225918138; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.lolesports.com; HttpOnly
+      cache-control:
+      - public, max-age=1800
+      etag:
+      - W/"1413225917-1"
+      expires:
+      - Mon, 13 Oct 2014 19:15:19 GMT
+      last-modified:
+      - Mon, 13 Oct 2014 18:45:17 +0000
+      vary:
+      - Accept-Encoding
+      via:
+      - 1.1 varnish
+      x-drupal-cache:
+      - MISS
+      x-frame-options:
+      - SAMEORIGIN
+      x-riot-cache:
+      - MISS
+      x-varnish:
+      - '960780122'
+      cf-cache-status:
+      - MISS
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 178db184560e0103-DFW
+    body:
+      encoding: UTF-8
+      string: '[{"blockId":"2229","dateTime":"2014-09-18T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T09:00Z","matchName":"Edward Gaming vs
+        Samsung White","winnerId":"648","matchId":"3077","url":"/tourney/match/3077","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"1847","name":"Edward Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6},"red":{"id":"648","name":"Samsung
+        White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1}},"gamesInfo":{"game0":{"id":"4013","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302026:37766398:37766399"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:15:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2284","dateTime":"2014-09-18T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T10:00Z","matchName":"Team SoloMid vs
+        SK Gaming","winnerId":"1","matchId":"3096","url":"/tourney/match/3096","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"1","name":"Team SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5},"red":{"id":"67","name":"SK
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4032","winnerId":"1","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301847:37765692:37765693"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-11T22:45:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2285","dateTime":"2014-09-18T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T11:00Z","matchName":"Dark Passage vs
+        Ahq e-Sports Club","winnerId":"949","matchId":"3078","url":"/tourney/match/3078","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"585","name":"Dark Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6},"red":{"id":"949","name":"Ahq
+        e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4}},"gamesInfo":{"game0":{"id":"4014","winnerId":"949","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302027:37766400:37766401"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-11T22:45:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2286","dateTime":"2014-09-18T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T12:00Z","matchName":"Taipei Assassins
+        vs Star Horn Royal Club","winnerId":"687","matchId":"3097","url":"/tourney/match/3097","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"974","name":"Taipei Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5},"red":{"id":"687","name":"Star
+        Horn Royal Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5}},"gamesInfo":{"game0":{"id":"4033","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301849:37765696:37765697"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-11T22:45:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2287","dateTime":"2014-09-18T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T13:00Z","matchName":"Samsung White vs
+        Ahq e-Sports Club","winnerId":"648","matchId":"3079","url":"/tourney/match/3079","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"648","name":"Samsung White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1},"red":{"id":"949","name":"Ahq
+        e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4}},"gamesInfo":{"game0":{"id":"4015","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302028:37766402:37766403"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-11T22:45:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2288","dateTime":"2014-09-18T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-18T14:00Z","matchName":"Star Horn Royal
+        Club vs Team SoloMid","winnerId":"687","matchId":"3098","url":"/tourney/match/3098","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"687","name":"Star Horn Royal
+        Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5},"red":{"id":"1","name":"Team
+        SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4034","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301850:37765698:37765699"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-11T22:45:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2251","dateTime":"2014-09-19T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T09:00Z","matchName":"Taipei Assassins
+        vs SK Gaming","winnerId":"974","matchId":"3099","url":"/tourney/match/3099","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"974","name":"Taipei Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5},"red":{"id":"67","name":"SK
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4035","winnerId":"974","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301851:37765700:37765701"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2232","dateTime":"2014-09-19T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T10:00Z","matchName":"Edward Gaming vs
+        Dark Passage","winnerId":"1847","matchId":"3080","url":"/tourney/match/3080","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"1847","name":"Edward Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6},"red":{"id":"585","name":"Dark
+        Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6}},"gamesInfo":{"game0":{"id":"4016","winnerId":"1847","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302030:37766406:37766407"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2252","dateTime":"2014-09-19T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T11:00Z","matchName":"Star Horn Royal
+        Club vs SK Gaming","winnerId":"687","matchId":"3100","url":"/tourney/match/3100","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"687","name":"Star Horn Royal
+        Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5},"red":{"id":"67","name":"SK
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4036","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301852:37765702:37765703"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2233","dateTime":"2014-09-19T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T12:00Z","matchName":"Dark Passage vs
+        Samsung White","winnerId":"648","matchId":"3081","url":"/tourney/match/3081","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"585","name":"Dark Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6},"red":{"id":"648","name":"Samsung
+        White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1}},"gamesInfo":{"game0":{"id":"4017","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302034:37766420:37766421"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2253","dateTime":"2014-09-19T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T13:00Z","matchName":"Team SoloMid vs
+        Taipei Assassins","winnerId":"1","matchId":"3101","url":"/tourney/match/3101","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"1","name":"Team SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5},"red":{"id":"974","name":"Taipei
+        Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4037","winnerId":"1","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301853:37765704:37765705"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2234","dateTime":"2014-09-19T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-19T14:00Z","matchName":"Edward Gaming vs
+        Ahq e-Sports Club","winnerId":"1847","matchId":"3082","url":"/tourney/match/3082","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"1847","name":"Edward Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6},"red":{"id":"949","name":"Ahq
+        e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4}},"gamesInfo":{"game0":{"id":"4018","winnerId":"1847","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302035:37766422:37766423"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2235","dateTime":"2014-09-20T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T09:00Z","matchName":"Samsung White vs
+        Dark Passage","winnerId":"648","matchId":"3083","url":"/tourney/match/3083","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"648","name":"Samsung White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1},"red":{"id":"585","name":"Dark
+        Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6}},"gamesInfo":{"game0":{"id":"4019","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302084:37766544:37766545"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2254","dateTime":"2014-09-20T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T10:00Z","matchName":"SK Gaming vs Star
+        Horn Royal Club","winnerId":"687","matchId":"3102","url":"/tourney/match/3102","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"67","name":"SK Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4},"red":{"id":"687","name":"Star
+        Horn Royal Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5}},"gamesInfo":{"game0":{"id":"4038","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301854:37765706:37765707"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2236","dateTime":"2014-09-20T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T11:00Z","matchName":"Ahq e-Sports Club
+        vs Samsung White","winnerId":"648","matchId":"3084","url":"/tourney/match/3084","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"949","name":"Ahq e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4},"red":{"id":"648","name":"Samsung
+        White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1}},"gamesInfo":{"game0":{"id":"4020","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302036:37766424:37766425"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2255","dateTime":"2014-09-20T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T12:00Z","matchName":"Taipei Assassins
+        vs Team SoloMid","winnerId":"1","matchId":"3103","url":"/tourney/match/3103","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"974","name":"Taipei Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5},"red":{"id":"1","name":"Team
+        SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4039","winnerId":"1","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301855:37765708:37765709"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2237","dateTime":"2014-09-20T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T13:00Z","matchName":"Dark Passage vs
+        Edward Gaming","winnerId":"1847","matchId":"3085","url":"/tourney/match/3085","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"585","name":"Dark Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6},"red":{"id":"1847","name":"Edward
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6}},"gamesInfo":{"game0":{"id":"4021","winnerId":"1847","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302037:37766426:37766427"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2256","dateTime":"2014-09-20T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-20T14:00Z","matchName":"SK Gaming vs Taipei
+        Assassins","winnerId":"67","matchId":"3104","url":"/tourney/match/3104","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"67","name":"SK Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4},"red":{"id":"974","name":"Taipei
+        Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4040","winnerId":"67","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302039:37766433:37766434"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2257","dateTime":"2014-09-21T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T09:00Z","matchName":"Team SoloMid vs
+        Star Horn Royal Club","winnerId":"1","matchId":"3105","url":"/tourney/match/3105","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"1","name":"Team SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5},"red":{"id":"687","name":"Star
+        Horn Royal Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5}},"gamesInfo":{"game0":{"id":"4041","winnerId":"1","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301856:37765710:37765711"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2238","dateTime":"2014-09-21T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T10:00Z","matchName":"Ahq e-Sports Club
+        vs Dark Passage","winnerId":"949","matchId":"3086","url":"/tourney/match/3086","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"949","name":"Ahq e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4},"red":{"id":"585","name":"Dark
+        Passage","logoURL":"/sites/default/files/styles/grid_medium_square/public/dark-passage.png?itok=MiYuLgX7","acronym":"DP","wins":0,"losses":6}},"gamesInfo":{"game0":{"id":"4022","winnerId":"949","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302040:37766435:37766436"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2258","dateTime":"2014-09-21T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T11:00Z","matchName":"Star Horn Royal
+        Club vs Taipei Assassins","winnerId":"687","matchId":"3106","url":"/tourney/match/3106","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"687","name":"Star Horn Royal
+        Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5},"red":{"id":"974","name":"Taipei
+        Assassins","logoURL":"/sites/default/files/styles/grid_medium_square/public/TPA.png?itok=1OF06ccF","acronym":"TPA","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4042","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302042:37766439:37766440"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2239","dateTime":"2014-09-21T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T12:00Z","matchName":"Ahq e-Sports Club
+        vs Edward Gaming","winnerId":"949","matchId":"3087","url":"/tourney/match/3087","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"949","name":"Ahq e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4},"red":{"id":"1847","name":"Edward
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6}},"gamesInfo":{"game0":{"id":"4023","winnerId":"949","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302043:37766441:37766442"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2259","dateTime":"2014-09-21T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T13:00Z","matchName":"SK Gaming vs Team
+        SoloMid","winnerId":"67","matchId":"3107","url":"/tourney/match/3107","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"177","name":"Group
+        B","round":"1"},"contestants":{"blue":{"id":"67","name":"SK Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/sk-white.png?itok=Z75PKCOL","acronym":"SK","wins":2,"losses":4},"red":{"id":"1","name":"Team
+        SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4043","winnerId":"67","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8301858:37765714:37765715"}],"leagueId":"4","tournamentId":"177","tournamentName":"Group
+        B","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        B - Taiwan"},{"blockId":"2240","dateTime":"2014-09-21T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T14:00Z","matchName":"Samsung White vs
+        Edward Gaming","winnerId":"648","matchId":"3088","url":"/tourney/match/3088","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":"1"},"contestants":{"blue":{"id":"648","name":"Samsung White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1},"red":{"id":"1847","name":"Edward
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6}},"gamesInfo":{"game0":{"id":"4024","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302044:37766443:37766444"}],"leagueId":"4","tournamentId":"175","tournamentName":"Group
+        A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan"},{"blockId":"2306","dateTime":"2014-09-21T15:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-21T15:00Z","matchName":"Edward Gaming vs
+        Ahq e-Sports Club","winnerId":"1847","matchId":"3132","url":"/tourney/match/3132","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"175","name":"Group
+        A","round":0},"contestants":{"blue":{"id":"1847","name":"Edward Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6},"red":{"id":"949","name":"Ahq
+        e-Sports Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4","acronym":"AHQ","wins":3,"losses":4}},"gamesInfo":{"game0":{"id":"4086","winnerId":"1847","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"
+        "}],"leagueId":"4","tournamentId":"175","tournamentName":"Group A","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        a and b","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-21T15:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        A - Taiwan - Tiebreaker"},{"blockId":"2289","dateTime":"2014-09-25T08:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":"<center>\r\n<a href=\"/lcspreview\"><img
+        src=\"/sites/default/files/styles/full_width_scale/public/LCSWorldShow_WebsiteBanner_V5.jpg?itok=CrzJAOk6\"></a></center>\r\n","bodyTime":"2014-09-25T08:00:00+00:00"}],"rebroadcastDate":"","label":"The
+        Worlds Preview Show - Encore Presentation"},{"blockId":"2260","dateTime":"2014-09-25T09:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T09:15Z","matchName":"LMQ vs OMG","winnerId":"1250","matchId":"3108","url":"/tourney/match/3108","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4},"red":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4045","winnerId":"1250","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302045:37766445:37766446"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":"Pre-game show","bodyTime":"2014-09-25T09:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2272","dateTime":"2014-09-25T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T10:00Z","matchName":"NaJin White Shield  vs
+        KaBuM e-Sports","winnerId":"895","matchId":"3120","url":"/tourney/match/3120","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"895","name":"NaJin White Shield
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5},"red":{"id":"3150","name":"KaBuM
+        e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4057","winnerId":"895","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302046:37766447:37766448"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2261","dateTime":"2014-09-25T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T11:00Z","matchName":"Samsung Blue vs
+        OMG","winnerId":"989","matchId":"3109","url":"/tourney/match/3109","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"989","name":"Samsung Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5},"red":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4046","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302047:37766449:37766450"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2273","dateTime":"2014-09-25T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T12:00Z","matchName":"Cloud9  vs Alliance","winnerId":"304","matchId":"3121","url":"/tourney/match/3121","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"304","name":"Cloud9 ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6},"red":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3}},"gamesInfo":{"game0":{"id":"4058","winnerId":"304","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302052:37766473:37766474"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2262","dateTime":"2014-09-25T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T13:00Z","matchName":"Fnatic vs LMQ","winnerId":"1250","matchId":"3110","url":"/tourney/match/3110","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4},"red":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4047","winnerId":"1250","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302050:37766469:37766470"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2274","dateTime":"2014-09-25T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-25T14:00Z","matchName":"Cloud9  vs KaBuM
+        e-Sports","winnerId":"304","matchId":"3122","url":"/tourney/match/3122","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"304","name":"Cloud9 ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6},"red":{"id":"3150","name":"KaBuM
+        e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4059","winnerId":"304","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302051:37766471:37766472"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2275","dateTime":"2014-09-26T09:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T09:15Z","matchName":"NaJin White Shield  vs
+        Alliance","winnerId":"895","matchId":"3123","url":"/tourney/match/3123","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"895","name":"NaJin White Shield
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5},"red":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3}},"gamesInfo":{"game0":{"id":"4060","winnerId":"895","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302056:37766481:37766482"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":"Pre-game show","bodyTime":"2014-09-26T09:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2263","dateTime":"2014-09-26T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T10:00Z","matchName":"Samsung Blue vs
+        Fnatic","winnerId":"68","matchId":"3111","url":"/tourney/match/3111","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"989","name":"Samsung Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5},"red":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4048","winnerId":"68","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302057:37766483:37766484"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2276","dateTime":"2014-09-26T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T11:00Z","matchName":"NaJin White Shield  vs
+        Cloud9 ","winnerId":"895","matchId":"3124","url":"/tourney/match/3124","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"895","name":"NaJin White Shield
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5},"red":{"id":"304","name":"Cloud9
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6}},"gamesInfo":{"game0":{"id":"4061","winnerId":"895","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302058:37766485:37766486"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2264","dateTime":"2014-09-26T12:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T12:00Z","matchName":"OMG vs Fnatic","winnerId":"685","matchId":"3112","url":"/tourney/match/3112","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5},"red":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4049","winnerId":"685","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302059:37766487:37766488"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2277","dateTime":"2014-09-26T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T13:00Z","matchName":"Alliance vs KaBuM
+        e-Sports","winnerId":"70","matchId":"3125","url":"/tourney/match/3125","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3},"red":{"id":"3150","name":"KaBuM
+        e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5}},"gamesInfo":{"game0":{"id":"4062","winnerId":"70","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302060:37766489:37766490"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2265","dateTime":"2014-09-26T14:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-26T14:00Z","matchName":"Samsung Blue vs
+        LMQ","winnerId":"989","matchId":"3113","url":"/tourney/match/3113","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"989","name":"Samsung Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5},"red":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4050","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302061:37766491:37766492"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2295","dateTime":"2014-09-26T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast: previous
+        day''s matches","bodyTime":"2014-09-26T17:00:00+00:00"}],"rebroadcastDate":"","label":"Groups
+        C and D - Singapore - Rebroadcast for 9/26"},{"blockId":"2266","dateTime":"2014-09-27T06:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T06:15Z","matchName":"Fnatic vs OMG","winnerId":"685","matchId":"3114","url":"/tourney/match/3114","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4},"red":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4051","winnerId":"685","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302062:37766493:37766494"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":"<p>Pre-game show</p>","bodyTime":"2014-09-27T06:00:00+00:00"}],"rebroadcastDate":"2014-09-27T17:00:00+00:00","label":"Group
+        C - Singapore"},{"blockId":"2278","dateTime":"2014-09-27T07:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T07:00Z","matchName":"Alliance vs Cloud9
+        ","winnerId":"70","matchId":"3126","url":"/tourney/match/3126","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3},"red":{"id":"304","name":"Cloud9
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6}},"gamesInfo":{"game0":{"id":"4063","winnerId":"70","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302069:37766509:37766510"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-27T07:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2267","dateTime":"2014-09-27T08:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T08:00Z","matchName":"LMQ vs Fnatic","winnerId":"68","matchId":"3115","url":"/tourney/match/3115","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4},"red":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4052","winnerId":"68","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302065:37766501:37766502"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2279","dateTime":"2014-09-27T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T09:00Z","matchName":"KaBuM e-Sports vs
+        NaJin White Shield ","winnerId":"895","matchId":"3127","url":"/tourney/match/3127","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"3150","name":"KaBuM e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5},"red":{"id":"895","name":"NaJin
+        White Shield ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4064","winnerId":"895","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302066:37766503:37766504"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2268","dateTime":"2014-09-27T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T10:00Z","matchName":"OMG vs Samsung Blue","winnerId":"989","matchId":"3116","url":"/tourney/match/3116","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5},"red":{"id":"989","name":"Samsung
+        Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4053","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302073:37766520:37766521"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2280","dateTime":"2014-09-27T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-27T11:00Z","matchName":"Alliance vs NaJin
+        White Shield ","winnerId":"70","matchId":"3128","url":"/tourney/match/3128","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3},"red":{"id":"895","name":"NaJin
+        White Shield ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4065","winnerId":"70","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302067:37766505:37766506"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2281","dateTime":"2014-09-28T06:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T06:15Z","matchName":"KaBuM e-Sports vs
+        Cloud9 ","winnerId":"304","matchId":"3129","url":"/tourney/match/3129","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"3150","name":"KaBuM e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5},"red":{"id":"304","name":"Cloud9
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6}},"gamesInfo":{"game0":{"id":"4066","winnerId":"304","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302068:37766507:37766508"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":"<p>Pre-game show</p>","bodyTime":"2014-09-28T06:00:00+00:00"}],"rebroadcastDate":"2014-09-28T17:00:00+00:00","label":"Group
+        D - Singapore"},{"blockId":"2269","dateTime":"2014-09-28T07:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T07:00Z","matchName":"LMQ vs Samsung Blue","winnerId":"989","matchId":"3117","url":"/tourney/match/3117","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4},"red":{"id":"989","name":"Samsung
+        Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4054","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302075:37766525:37766526"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-28T07:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2282","dateTime":"2014-09-28T08:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T08:00Z","matchName":"KaBuM e-Sports vs
+        Alliance","winnerId":"3150","matchId":"3130","url":"/tourney/match/3130","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"3150","name":"KaBuM e-Sports","logoURL":"/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-","acronym":"KBM","wins":1,"losses":5},"red":{"id":"70","name":"Alliance","logoURL":"/sites/default/files/styles/grid_medium_square/public/ALLlogo_0.png?itok=EPeWF-Re","acronym":"ALL","wins":3,"losses":3}},"gamesInfo":{"game0":{"id":"4067","winnerId":"3150","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302080:37766535:37766536"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2270","dateTime":"2014-09-28T09:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T09:00Z","matchName":"Fnatic vs Samsung
+        Blue","winnerId":"989","matchId":"3118","url":"/tourney/match/3118","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"68","name":"Fnatic","logoURL":"/sites/default/files/styles/grid_medium_square/public/fnaticlogo.png?itok=1C-vza-C","acronym":"FNC","wins":2,"losses":4},"red":{"id":"989","name":"Samsung
+        Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4055","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302077:37766529:37766530"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2283","dateTime":"2014-09-28T10:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T10:00Z","matchName":"Cloud9  vs NaJin
+        White Shield ","winnerId":"304","matchId":"3131","url":"/tourney/match/3131","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":"2"},"contestants":{"blue":{"id":"304","name":"Cloud9 ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6},"red":{"id":"895","name":"NaJin
+        White Shield ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4068","winnerId":"304","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302078:37766531:37766532"}],"leagueId":"4","tournamentId":"179","tournamentName":"Group
+        D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore"},{"blockId":"2271","dateTime":"2014-09-28T11:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T11:00Z","matchName":"OMG vs LMQ","winnerId":"685","matchId":"3119","url":"/tourney/match/3119","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"178","name":"Group
+        C","round":"2"},"contestants":{"blue":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5},"red":{"id":"1250","name":"LMQ","logoURL":"/sites/default/files/styles/grid_medium_square/public/LMQ_NA_1-9-14_1.png?itok=fgQ38CVQ","acronym":"LMQ","wins":2,"losses":4}},"gamesInfo":{"game0":{"id":"4056","winnerId":"685","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8302079:37766533:37766534"}],"leagueId":"4","tournamentId":"178","tournamentName":"Group
+        C","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-09T20:30:00+00:00"}],"rebroadcastDate":"","label":"Group
+        C - Singapore"},{"blockId":"2307","dateTime":"2014-09-28T13:00:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-09-28T13:00Z","matchName":"NaJin White Shield  vs
+        Cloud9 ","winnerId":"895","matchId":"3134","url":"/tourney/match/3134","maxGames":"1","isLive":false,"isFinished":"1","tournament":{"id":"179","name":"Group
+        D","round":0},"contestants":{"blue":{"id":"895","name":"NaJin White Shield
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5},"red":{"id":"304","name":"Cloud9
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6}},"gamesInfo":{"game0":{"id":"4088","winnerId":"895","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"
+        "}],"leagueId":"4","tournamentId":"179","tournamentName":"Group D","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"group
+        c and d","body":[{"bodyTitle":null,"body":null,"bodyTime":"2014-09-28T13:00:00+00:00"}],"rebroadcastDate":"","label":"Group
+        D - Singapore - Tiebreaker"},{"blockId":"2209","dateTime":"2014-10-02T20:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Quarterfinals","body":[{"bodyTitle":null,"body":"<div
+        class=\"show-compact-schedule\">\r\n<h3>Preview Show</h3>\r\n<h4>Quarterfinals</h4>\r\n<p>Everything
+        you need to know about the final eight teams heading into the Quarterfinals
+        of the 2014 World Championship with special guests MonteCristo, Doublelift
+        and Krepo.  Plus Highlights, All Chat, the Penta, Interviews and more.</p>\r\n<bold
+        class=\"font-face\">Watch Live at <span class=\"lighten\">1:00PM PDT // 22:00
+        CEST</span></bold>\r\n</div>\r\n\r\n<div class=\"show-schedule\">\r\n<p><center>\r\n<a
+        href=\"/lcspreview\"target=\"_self\"><img src=\"/sites/default/files/styles/full_width_scale/public/Worlds%20Preview%20Show%20Banner.jpg?itok=cgCyfCtp\"></a></center></p>\r\n</div>\r\n\r\n","bodyTime":"2014-10-02T20:00:00+00:00"}],"rebroadcastDate":"2014-10-03T07:30:00+00:00","label":"The
+        Worlds Preview Show"},{"blockId":"2241","dateTime":"2014-10-03T08:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-03T08:15Z","matchName":"Samsung White vs
+        Team SoloMid","winnerId":"648","matchId":"3089","url":"/tourney/match/3089","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"1"},"contestants":{"blue":{"id":"648","name":"Samsung White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1},"red":{"id":"1","name":"Team
+        SoloMid","logoURL":"/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE","acronym":"TSM","wins":5,"losses":5}},"gamesInfo":{"game0":{"id":"4025","winnerId":"648","noVods":"0","hasVod":1},"game1":{"id":"4089","winnerId":"648","noVods":"0","hasVod":1},"game2":{"id":"4090","winnerId":"1","noVods":"0","hasVod":1},"game3":{"id":"4091","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8323089:37863310:37863311"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Quarterfinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-03T08:00:00+00:00"}],"rebroadcastDate":"2014-10-03T17:00:00+00:00","label":"Quarterfinals
+        - Busan"},{"blockId":"2298","dateTime":"2014-10-03T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"quarterfinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-03T17:00:00+00:00"}],"rebroadcastDate":"","label":"Quarterfinals
+        - Busan - Rebroadcast for 10/3"},{"blockId":"2242","dateTime":"2014-10-04T05:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-04T05:15Z","matchName":"Samsung Blue vs
+        Cloud9 ","winnerId":"989","matchId":"3090","url":"/tourney/match/3090","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"1"},"contestants":{"blue":{"id":"989","name":"Samsung Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5},"red":{"id":"304","name":"Cloud9
+        ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Cloud9_Logo-onBlack_0.png?itok=Mn-xYmaY","acronym":"C9","wins":5,"losses":6}},"gamesInfo":{"game0":{"id":"4026","winnerId":"304","noVods":"0","hasVod":1},"game1":{"id":"4092","winnerId":"989","noVods":"0","hasVod":1},"game2":{"id":"4093","winnerId":"989","noVods":"0","hasVod":1},"game3":{"id":"4094","winnerId":"989","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8340701:37943833:37943834"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Quarterfinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-04T05:00:00+00:00"}],"rebroadcastDate":"2014-10-04T17:00:00+00:00","label":"Quarterfinals
+        - Busan"},{"blockId":"2299","dateTime":"2014-10-04T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"quarterfinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-04T17:00:00+00:00"}],"rebroadcastDate":"","label":"Quarterfinals
+        - Busan - Rebroadcast for 10/4"},{"blockId":"2243","dateTime":"2014-10-05T05:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-05T05:15Z","matchName":"Star Horn Royal
+        Club vs Edward Gaming","winnerId":"687","matchId":"3091","url":"/tourney/match/3091","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"1"},"contestants":{"blue":{"id":"687","name":"Star Horn Royal
+        Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5},"red":{"id":"1847","name":"Edward
+        Gaming","logoURL":"/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA","acronym":"EDG","wins":6,"losses":6}},"gamesInfo":{"game0":{"id":"4027","winnerId":"687","noVods":"0","hasVod":1},"game1":{"id":"4095","winnerId":"687","noVods":"0","hasVod":1},"game2":{"id":"4096","winnerId":"1847","noVods":"0","hasVod":1},"game3":{"id":"4097","winnerId":"1847","noVods":"0","hasVod":1},"game4":{"id":"4098","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8323095:37863344:37863345"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Quarterfinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-05T05:00:00+00:00"}],"rebroadcastDate":"2014-10-05T17:00:00+00:00","label":"Quarterfinals
+        - Busan"},{"blockId":"2300","dateTime":"2014-10-05T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"quarterfinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-05T17:00:00+00:00"}],"rebroadcastDate":"","label":"Quarterfinals
+        - Busan - Rebroadcast for 10/5"},{"blockId":"2244","dateTime":"2014-10-06T08:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-06T08:15Z","matchName":"NaJin White Shield  vs
+        OMG","winnerId":"685","matchId":"3092","url":"/tourney/match/3092","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"1"},"contestants":{"blue":{"id":"895","name":"NaJin White
+        Shield ","logoURL":"/sites/default/files/styles/grid_medium_square/public/Najin_White_Shield_logo.png?itok=hh5rqYHd","acronym":"NJS","wins":5,"losses":5},"red":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4028","winnerId":"685","noVods":"0","hasVod":1},"game1":{"id":"4099","winnerId":"685","noVods":"0","hasVod":1},"game2":{"id":"4100","winnerId":"685","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8337128:37926622:37926623"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Quarterfinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-06T08:00:00+00:00"}],"rebroadcastDate":"2014-10-06T17:00:00+00:00","label":"Quarterfinals
+        - Busan"},{"blockId":"2301","dateTime":"2014-10-06T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"quarterfinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-06T17:00:00+00:00"}],"rebroadcastDate":"","label":"Quarterfinals
+        - Busan - Rebroadcast for 10/6"},{"blockId":"2210","dateTime":"2014-10-10T20:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Semifinals","body":[{"bodyTitle":null,"body":"<div
+        class=\"show-compact-schedule\">\r\n<h3>Preview Show</h3>\r\n<h4>Semifinals</h4>\r\n<p>Everything
+        you need to know about the final four teams heading into the Semifinals of
+        the 2014 World Championship with special guests MonteCristo, Doublelift and
+        Krepo.  Plus Highlights, All Chat, the Penta, Interviews and more.</p>\r\n<bold
+        class=\"font-face\">Watch Live at <span class=\"lighten\">1:00PM PDT // 22:00
+        CEST</span></bold>\r\n</div>\r\n\r\n<div class=\"show-schedule\">\r\n<p><center>\r\n<a
+        href=\"/lcspreview\"target=\"_self\"><img src=\"/sites/default/files/styles/full_width_scale/public/Worlds%20Preview%20Show%20Banner.jpg?itok=cgCyfCtp\"></a></center></p>\r\n</div>\r\n\r\n","bodyTime":"2014-10-10T20:00:00+00:00"}],"rebroadcastDate":"2014-10-11T07:30:00+00:00","label":"The
+        Worlds Preview Show"},{"blockId":"2245","dateTime":"2014-10-11T08:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-11T08:15Z","matchName":"Samsung Blue vs
+        Samsung White","winnerId":"648","matchId":"3093","url":"/tourney/match/3093","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"2"},"contestants":{"blue":{"id":"989","name":"Samsung Blue","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-Blue_0.png?itok=c73T6xDc","acronym":"SSB","wins":8,"losses":5},"red":{"id":"648","name":"Samsung
+        White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1}},"gamesInfo":{"game0":{"id":"4029","winnerId":"648","noVods":"0","hasVod":1},"game1":{"id":"4101","winnerId":"648","noVods":"0","hasVod":1},"game2":{"id":"4102","winnerId":"648","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8351142:37992297:37992298"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Semifinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-11T08:00:00+00:00"}],"rebroadcastDate":"2014-10-11T17:00:00+00:00","label":"Semifinals
+        - Seoul"},{"blockId":"2303","dateTime":"2014-10-11T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"semifinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-11T17:00:00+00:00"}],"rebroadcastDate":"","label":"Semifinals
+        - Seoul - Rebroadcast for 10/11"},{"blockId":"2246","dateTime":"2014-10-12T08:15:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-12T08:15Z","matchName":"Star Horn Royal
+        Club vs OMG","winnerId":"687","matchId":"3094","url":"/tourney/match/3094","maxGames":"5","isLive":false,"isFinished":"1","tournament":{"id":"176","name":"Knockout
+        Stage","round":"2"},"contestants":{"blue":{"id":"687","name":"Star Horn Royal
+        Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5},"red":{"id":"685","name":"OMG","logoURL":"/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM","acronym":"OMG","wins":8,"losses":5}},"gamesInfo":{"game0":{"id":"4030","winnerId":"685","noVods":"0","hasVod":1},"game1":{"id":"4103","winnerId":"687","noVods":"0","hasVod":1},"game2":{"id":"4104","winnerId":"687","noVods":"0","hasVod":1},"game3":{"id":"4105","winnerId":"685","noVods":"0","hasVod":1},"game4":{"id":"4106","winnerId":"687","noVods":"0","hasVod":1}},"liveStreams":false,"polldaddyId":"8354839:38010218:38010219"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Semifinals","body":[{"bodyTitle":null,"body":"<p>Pre-game
+        show</p>","bodyTime":"2014-10-12T08:00:00+00:00"}],"rebroadcastDate":"2014-10-12T17:00:00+00:00","label":"Semifinals
+        - Seoul"},{"blockId":"2302","dateTime":"2014-10-12T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"semifinals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-12T17:00:00+00:00"}],"rebroadcastDate":"","label":"Semifinals
+        - Seoul - Rebroadcast for 10/12"},{"blockId":"2220","dateTime":"2014-10-18T20:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"Finals","body":[{"bodyTitle":null,"body":"<div
+        class=\"show-compact-schedule\">\r\n<h3>Preview Show</h3>\r\n<h4>Finals</h4>\r\n<p>Everything
+        you need to know about the top two teams in the world before they take the
+        rift for the 2014 World Championship and the Summoners Cup.  Plus All Chat,
+        the Penta and interviews with the best players in the world.</p>\r\n<bold
+        class=\"font-face\">Watch Live at <span class=\"lighten\">1:00PM PDT // 22:00
+        CEST</span></bold>\r\n</div>\r\n\r\n<div class=\"show-schedule\">\r\n<p><center>\r\n<a
+        href=\"/lcspreview\"target=\"_self\"><img src=\"/sites/default/files/styles/full_width_scale/public/Worlds%20Preview%20Show%20Banner.jpg?itok=cgCyfCtp\"></a></center></p>\r\n</div>\r\n\r\n","bodyTime":"2014-10-18T20:00:00+00:00"}],"rebroadcastDate":"2014-10-19T05:30:00+00:00","label":"The
+        Worlds Preview Show"},{"blockId":"2247","dateTime":"2014-10-19T06:45:00+00:00","tickets":"
+        ","matches":[{"dateTime":"2014-10-19T06:45Z","matchName":"Samsung White vs
+        Star Horn Royal Club","winnerId":"","matchId":"3095","url":"/tourney/match/3095","maxGames":"5","isLive":false,"isFinished":"0","tournament":{"id":"176","name":"Knockout
+        Stage","round":"3"},"contestants":{"blue":{"id":"648","name":"Samsung White","logoURL":"/sites/default/files/styles/grid_medium_square/public/Samsung-White.png?itok=YACCHFGp","acronym":"SSW","wins":12,"losses":1},"red":{"id":"687","name":"Star
+        Horn Royal Club","logoURL":"/sites/default/files/styles/grid_medium_square/public/sh-royalclub_logo.png?itok=rdmMIWQu","acronym":"RYL","wins":11,"losses":5}},"gamesInfo":{"game0":{"id":"4031","winnerId":"","noVods":"0","hasVod":0}},"liveStreams":false,"polldaddyId":"8369007:38073443:38073444"}],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"1","tbdTime":"0","leagueColor":"#a0a0a0","week":"Finals","body":[{"bodyTitle":null,"body":"Pre-game
+        show","bodyTime":"2014-10-19T06:00:00+00:00"},{"bodyTitle":null,"body":"Opening
+        ceremony","bodyTime":"2014-10-19T06:30:00+00:00"}],"rebroadcastDate":"2014-10-19T17:00:00+00:00","label":"Finals
+        - Seoul"},{"blockId":"2304","dateTime":"2014-10-19T17:00:00+00:00","tickets":"
+        ","matches":[],"leagueId":"4","tournamentId":"176","tournamentName":"Knockout
+        Stage","significance":"0","tbdTime":"0","leagueColor":"#a0a0a0","week":"finals","body":[{"bodyTitle":"Rebroadcast","body":"Rebroadcast:
+        previous day''s matches","bodyTime":"2014-10-19T17:00:00+00:00"}],"rebroadcastDate":"","label":"Finals
+        - Seoul - Rebroadcast for 10/19"}]'
+    http_version: 
+  recorded_at: Mon, 13 Oct 2014 18:45:19 GMT
+recorded_with: VCR 2.9.3

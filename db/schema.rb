@@ -11,13 +11,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141008205511) do
+ActiveRecord::Schema.define(version: 20141013195519) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "contestants", force: true do |t|
+    t.string  "name"
+    t.string  "logo"
+    t.string  "acronym"
+    t.integer "wins"
+    t.integer "losses"
+    t.integer "team_id"
+  end
+
   create_table "games", force: true do |t|
-    t.boolean "live"
+    t.boolean  "live",       default: false
+    t.string   "match_name"
+    t.integer  "winner_id"
+    t.integer  "match_id"
+    t.integer  "league_id"
+    t.integer  "max_games"
+    t.boolean  "finished"
+    t.datetime "date_time"
+  end
+
+  add_index "games", ["date_time"], name: "index_games_on_date_time", using: :btree
+  add_index "games", ["league_id"], name: "index_games_on_league_id", using: :btree
+  add_index "games", ["match_id"], name: "index_games_on_match_id", using: :btree
+
+  create_table "matches", force: true do |t|
+    t.integer "game_id"
+    t.integer "contestant_id"
   end
 
   create_table "users", force: true do |t|
