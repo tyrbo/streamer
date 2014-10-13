@@ -10,9 +10,9 @@ Rails.application.routes.draw do
     end
   end
 
-  namespace :admin do
-    resources :games
+  #namespace :admin do
+  #  resources :games
 
-    root 'games#index'
-  end
+  #  root 'games#index'
+  #end
 end
