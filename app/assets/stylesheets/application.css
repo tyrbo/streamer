@@ -66,3 +66,152 @@ li.finished {
     -webkit-transform: scale(1.0);
   }
 }
+
+.aatrox, .ahri, .akali, .alistar, .amumu, 
+.anivia, .annie, .ashe, .azir, .blitzcrank, 
+.brand, .braum, .caitlyn, .cassiopeia, .chogath, 
+.corki, .darius, .diana, .drmundo, .draven, 
+.elise, .evelynn, .ezreal, .fiddlesticks, .fiora, 
+.fizz, .galio, .gangplank, .garen, .gnar, 
+.gragas, .graves, .hecarim, .heimerdinger, .irelia, 
+.janna, .jarvaniv, .jax, .jayce, .jinx, 
+.karma, .karthus, .kassadin, .katarina, .kayle, 
+.kennen, .khazix, .kogmaw, .leblanc, .leesin, 
+.leona, .lissandra, .lucian, .lulu, .lux, 
+.malphite, .malzahar, .maokai, .masteryi, .missfortune, 
+.monkeyking, .mordekaiser, .morgana, .nami, .nasus, 
+.nautilus, .nidalee, .nocturne, .nunu, .olaf, 
+.orianna, .pantheon, .poppy, .quinn, .rammus, 
+.renekton, .rengar, .riven, .rumble, .ryze, 
+.sejuani, .shaco, .shen, .shyvana, .singed, 
+.sion, .sivir, .skarner, .sona, .soraka, 
+.swain, .syndra, .talon, .taric, .teemo, 
+.thresh, .tristana, .trundle, .tryndamere, .twistedfate, 
+.twitch, .udyr, .urgot, .varus, .vayne, 
+.veigar, .velkoz, .vi, .viktor, .vladimir, 
+.volibear, .warwick, .xerath, .xinzhao, .yasuo, 
+.yorick, .zac, .zed, .ziggs, .zilean, 
+.zyra
+{ display: inline-block; background: url('champions.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.aatrox { background-position: -2px -0px; width: 60px; height: 60px; }
+.ahri { background-position: -64px -0px; width: 60px; height: 60px; }
+.akali { background-position: -126px -0px; width: 60px; height: 60px; }
+.alistar { background-position: -188px -0px; width: 60px; height: 60px; }
+.amumu { background-position: -250px -0px; width: 60px; height: 60px; }
+.anivia { background-position: -312px -0px; width: 60px; height: 60px; }
+.annie { background-position: -374px -0px; width: 60px; height: 60px; }
+.ashe { background-position: -436px -0px; width: 60px; height: 60px; }
+.azir { background-position: -498px -0px; width: 60px; height: 60px; }
+.blitzcrank { background-position: -560px -0px; width: 60px; height: 60px; }
+.brand { background-position: -622px -0px; width: 60px; height: 60px; }
+.braum { background-position: -2px -62px; width: 60px; height: 60px; }
+.caitlyn { background-position: -64px -62px; width: 60px; height: 60px; }
+.cassiopeia { background-position: -126px -62px; width: 60px; height: 60px; }
+.chogath { background-position: -188px -62px; width: 60px; height: 60px; }
+.corki { background-position: -250px -62px; width: 60px; height: 60px; }
+.darius { background-position: -312px -62px; width: 60px; height: 60px; }
+.diana { background-position: -374px -62px; width: 60px; height: 60px; }
+.drmundo { background-position: -436px -62px; width: 60px; height: 60px; }
+.draven { background-position: -498px -62px; width: 60px; height: 60px; }
+.elise { background-position: -560px -62px; width: 60px; height: 60px; }
+.evelynn { background-position: -622px -62px; width: 60px; height: 60px; }
+.ezreal { background-position: -2px -124px; width: 60px; height: 60px; }
+.fiddlesticks { background-position: -64px -124px; width: 60px; height: 60px; }
+.fiora { background-position: -126px -124px; width: 60px; height: 60px; }
+.fizz { background-position: -188px -124px; width: 60px; height: 60px; }
+.galio { background-position: -250px -124px; width: 60px; height: 60px; }
+.gangplank { background-position: -312px -124px; width: 60px; height: 60px; }
+.garen { background-position: -374px -124px; width: 60px; height: 60px; }
+.gnar { background-position: -436px -124px; width: 60px; height: 60px; }
+.gragas { background-position: -498px -124px; width: 60px; height: 60px; }
+.graves { background-position: -560px -124px; width: 60px; height: 60px; }
+.hecarim { background-position: -622px -124px; width: 60px; height: 60px; }
+.heimerdinger { background-position: -2px -186px; width: 60px; height: 60px; }
+.irelia { background-position: -64px -186px; width: 60px; height: 60px; }
+.janna { background-position: -126px -186px; width: 60px; height: 60px; }
+.jarvaniv { background-position: -188px -186px; width: 60px; height: 60px; }
+.jax { background-position: -250px -186px; width: 60px; height: 60px; }
+.jayce { background-position: -312px -186px; width: 60px; height: 60px; }
+.jinx { background-position: -374px -186px; width: 60px; height: 60px; }
+.karma { background-position: -436px -186px; width: 60px; height: 60px; }
+.karthus { background-position: -498px -186px; width: 60px; height: 60px; }
+.kassadin { background-position: -560px -186px; width: 60px; height: 60px; }
+.katarina { background-position: -622px -186px; width: 60px; height: 60px; }
+.kayle { background-position: -2px -248px; width: 60px; height: 60px; }
+.kennen { background-position: -64px -248px; width: 60px; height: 60px; }
+.khazix { background-position: -126px -248px; width: 60px; height: 60px; }
+.kogmaw { background-position: -188px -248px; width: 60px; height: 60px; }
+.leblanc { background-position: -250px -248px; width: 60px; height: 60px; }
+.leesin { background-position: -312px -248px; width: 60px; height: 60px; }
+.leona { background-position: -374px -248px; width: 60px; height: 60px; }
+.lissandra { background-position: -436px -248px; width: 60px; height: 60px; }
+.lucian { background-position: -498px -248px; width: 60px; height: 60px; }
+.lulu { background-position: -560px -248px; width: 60px; height: 60px; }
+.lux { background-position: -622px -248px; width: 60px; height: 60px; }
+.malphite { background-position: -2px -310px; width: 60px; height: 60px; }
+.malzahar { background-position: -64px -310px; width: 60px; height: 60px; }
+.maokai { background-position: -126px -310px; width: 60px; height: 60px; }
+.masteryi { background-position: -188px -310px; width: 60px; height: 60px; }
+.missfortune { background-position: -250px -310px; width: 60px; height: 60px; }
+.monkeyking { background-position: -312px -310px; width: 60px; height: 60px; }
+.mordekaiser { background-position: -374px -310px; width: 60px; height: 60px; }
+.morgana { background-position: -436px -310px; width: 60px; height: 60px; }
+.nami { background-position: -498px -310px; width: 60px; height: 60px; }
+.nasus { background-position: -560px -310px; width: 60px; height: 60px; }
+.nautilus { background-position: -622px -310px; width: 60px; height: 60px; }
+.nidalee { background-position: -2px -372px; width: 60px; height: 60px; }
+.nocturne { background-position: -64px -372px; width: 60px; height: 60px; }
+.nunu { background-position: -126px -372px; width: 60px; height: 60px; }
+.olaf { background-position: -188px -372px; width: 60px; height: 60px; }
+.orianna { background-position: -250px -372px; width: 60px; height: 60px; }
+.pantheon { background-position: -312px -372px; width: 60px; height: 60px; }
+.poppy { background-position: -374px -372px; width: 60px; height: 60px; }
+.quinn { background-position: -436px -372px; width: 60px; height: 60px; }
+.rammus { background-position: -498px -372px; width: 60px; height: 60px; }
+.renekton { background-position: -560px -372px; width: 60px; height: 60px; }
+.rengar { background-position: -622px -372px; width: 60px; height: 60px; }
+.riven { background-position: -2px -434px; width: 60px; height: 60px; }
+.rumble { background-position: -64px -434px; width: 60px; height: 60px; }
+.ryze { background-position: -126px -434px; width: 60px; height: 60px; }
+.sejuani { background-position: -188px -434px; width: 60px; height: 60px; }
+.shaco { background-position: -250px -434px; width: 60px; height: 60px; }
+.shen { background-position: -312px -434px; width: 60px; height: 60px; }
+.shyvana { background-position: -374px -434px; width: 60px; height: 60px; }
+.singed { background-position: -436px -434px; width: 60px; height: 60px; }
+.sion { background-position: -498px -434px; width: 60px; height: 60px; }
+.sivir { background-position: -560px -434px; width: 60px; height: 60px; }
+.skarner { background-position: -622px -434px; width: 60px; height: 60px; }
+.sona { background-position: -2px -496px; width: 60px; height: 60px; }
+.soraka { background-position: -64px -496px; width: 60px; height: 60px; }
+.swain { background-position: -126px -496px; width: 60px; height: 60px; }
+.syndra { background-position: -188px -496px; width: 60px; height: 60px; }
+.talon { background-position: -250px -496px; width: 60px; height: 60px; }
+.taric { background-position: -312px -496px; width: 60px; height: 60px; }
+.teemo { background-position: -374px -496px; width: 60px; height: 60px; }
+.thresh { background-position: -436px -496px; width: 60px; height: 60px; }
+.tristana { background-position: -498px -496px; width: 60px; height: 60px; }
+.trundle { background-position: -560px -496px; width: 60px; height: 60px; }
+.tryndamere { background-position: -622px -496px; width: 60px; height: 60px; }
+.twistedfate { background-position: -2px -558px; width: 60px; height: 60px; }
+.twitch { background-position: -64px -558px; width: 60px; height: 60px; }
+.udyr { background-position: -126px -558px; width: 60px; height: 60px; }
+.urgot { background-position: -188px -558px; width: 60px; height: 60px; }
+.varus { background-position: -250px -558px; width: 60px; height: 60px; }
+.vayne { background-position: -312px -558px; width: 60px; height: 60px; }
+.veigar { background-position: -374px -558px; width: 60px; height: 60px; }
+.velkoz { background-position: -436px -558px; width: 60px; height: 60px; }
+.vi { background-position: -498px -558px; width: 60px; height: 60px; }
+.viktor { background-position: -560px -558px; width: 60px; height: 60px; }
+.vladimir { background-position: -622px -558px; width: 60px; height: 60px; }
+.volibear { background-position: -2px -620px; width: 60px; height: 60px; }
+.warwick { background-position: -64px -620px; width: 60px; height: 60px; }
+.xerath { background-position: -126px -620px; width: 60px; height: 60px; }
+.xinzhao { background-position: -188px -620px; width: 60px; height: 60px; }
+.yasuo { background-position: -250px -620px; width: 60px; height: 60px; }
+.yorick { background-position: -312px -620px; width: 60px; height: 60px; }
+.zac { background-position: -374px -620px; width: 60px; height: 60px; }
+.zed { background-position: -436px -620px; width: 60px; height: 60px; }
+.ziggs { background-position: -498px -620px; width: 60px; height: 60px; }
+.zilean { background-position: -560px -620px; width: 60px; height: 60px; }
+.zyra { background-position: -622px -620px; width: 60px; height: 60px; }
