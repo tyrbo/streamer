@@ -72,7 +72,7 @@
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container-fluid game-wrapper">
     {{#each}}
-    <div class="well pull-left noselect game" {{bind-attr class="live:with-glow finished"}} {{bind-attr data-match="id"}} {{action 'subscribe' this}} style="cursor:pointer;">
+    <div {{bind-attr class=":well :pull-left :noselect :game live:with-glow finished"}} {{bind-attr data-match="id"}} {{action 'subscribe' this}} style="cursor:pointer;">
       <div class="text-center">
         <div class="row">
           <div class="col-md-12">
