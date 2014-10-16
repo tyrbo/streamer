@@ -7,4 +7,8 @@ class User < ActiveRecord::Base
   def self.with_game_start
     User.all
   end
+
+  def self.with_game_end
+    User.all
+  end
 end
