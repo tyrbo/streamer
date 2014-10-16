@@ -1,3 +1,6 @@
+require 'capistrano/sidekiq'
+require 'capistrano/sidekiq/monit'
+
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
@@ -10,7 +13,7 @@ set :scm, :git
 set :branch, 'master'
 set :deploy_via, :copy
 
-set :pty, true
+set :pty, false
 
 #set :domain, 'stream.lolsummoners.com'
 #roles :all, fetch(:domain)

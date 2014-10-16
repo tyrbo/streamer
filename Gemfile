@@ -34,6 +34,7 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'capistrano'
+  gem 'capistrano-sidekiq'
 end
 
 group :development, :test do
