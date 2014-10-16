@@ -17,6 +17,7 @@ class GameWatcher
 
   def initialize(game)
     @game = game
+    game.update(live: true)
 
     build_connections
   end
@@ -41,9 +42,10 @@ class GameWatcher
           redis.set('lol-game-stats', stats)
 
           if finished?
+            game.update(finished: true, live: false)
             break
           end
-        rescue Pusher::Error => e
+        rescue
         end
       end
 
