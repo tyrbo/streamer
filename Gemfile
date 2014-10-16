@@ -31,6 +31,7 @@ gem 'redis'
 gem 'therubyracer', platforms: :ruby
 
 gem 'capistrano-sidekiq'
+gem 'capistrano-rvm'
 
 group :development do
   gem 'spring'
