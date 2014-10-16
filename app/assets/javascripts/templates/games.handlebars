@@ -1,14 +1,70 @@
 <div class="container-fluid">
-  <div class="row">
+  <div class="row center-block" style="width: 640px;">
     <div class="col-md-12">
-      <div class="loading-wrapper">
-        <h4 class="text-center">Waiting for game data...</h2>
-        <div class="spinner">
-          <div class="bounce1"></div>
-          <div class="bounce2"></div>
-          <div class="bounce3"></div>
+      {{#with liveGame}}
+      {{#if present}}
+        <div class="row">
+          <div class="col-md-5 text-center"><h4>{{teams.[0].name}}</h4></div>
+          <div class="col-md-2 text-center"><h4>vs.</h4></div>
+          <div class="col-md-5 text-center"><h4>{{teams.[1].name}}</h4></div>
         </div>
-      </div>
+        <!--<div class="row">
+          <div class="col-md-5">Stats</div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5">Stats</div>
+        </div>-->
+        {{#if hasPlayers}}
+        <div class="row">
+          {{player-left player=teams.[0].players.[0]}}
+          <div class="col-md-2"></div>
+          {{player-right player=teams.[1].players.[0]}}
+        </div>
+        <div class="row">
+          {{player-left player=teams.[0].players.[1]}}
+          <div class="col-md-2"></div>
+          {{player-right player=teams.[1].players.[1]}}
+        </div>
+        <div class="row">
+          {{player-left player=teams.[0].players.[2]}}
+          <div class="col-md-2"></div>
+          {{player-right player=teams.[1].players.[2]}}
+        </div>
+        <div class="row">
+          {{player-left player=teams.[0].players.[3]}}
+          <div class="col-md-2"></div>
+          {{player-right player=teams.[1].players.[3]}}
+        </div>
+        <div class="row">
+          {{player-left player=teams.[0].players.[4]}}
+          <div class="col-md-2"></div>
+          {{player-right player=teams.[1].players.[4]}}
+        </div>
+        {{else}} 
+            {{#if hasWinner}}
+              <h4 class="text-center">{{winner}} has won!</h2>
+            {{else}}
+              <div class="loading-wrapper">
+                <h4 class="text-center">Waiting for game start...</h2>
+
+                <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+              </div>
+            {{/if}}
+        {{/if}}
+      {{else}}
+        <div class="loading-wrapper">
+          <h4 class="text-center">Waiting for game information...</h2>
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
+        </div>
+      {{/if}}
+      {{/with}}
     </div>
   </div>
 </div>
@@ -16,16 +72,20 @@
 <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container-fluid" style="max-height: 100px; overflow-y: hidden;">
     {{#each}}
-    <div class="well pull-left" data-match="{{_id}}">
+    <div class="well pull-left noselect" {{bind-attr data-match="id"}} {{action 'subscribe' this}} style="cursor:pointer;">
       <div class="text-center">
         <div class="row">
-          <div class="col-md-12">{{contestant_array.[0].name}}</div>
+          <div class="col-md-12">
+            {{contestant_array.[0].name}}
+          </div>
         </div>
         <div class="row">
           <div class="col-md-12">vs.</div>
         </div>
         <div class="row">
-          <div class="col-md-12">{{contestant_array.[1].name}}</div>
+          <div class="col-md-12">
+            {{contestant_array.[1].name}}
+          </div>
         </div>
       </div>
     </div>

@@ -25,19 +25,19 @@ class GameScheduler
   end
 
   def build_game(match, league_id)
-    if !Game.find_by(match_id: match['matchId'])
-      game = Game.create(
-        date_time: match['dateTime'],
-        match_name: match['matchName'],
-        winner_id: match['winnerId'],
-        match_id: match['matchId'],
-        max_games: match['maxGames'],
-        finished: (match['isFinished'] == '0' ? false : true) || false,
-        league_id: league_id
-      )
+    game = Game.find_or_initialize_by(match_id: match['matchId'])
 
-      build_contestants(match['contestants']['blue'], match['contestants']['red'], game)
-    end
+    game.date_time = match['dateTime']
+    game.match_name = match['matchName']
+    game.winner_id = match['winnerId']
+    game.match_id = match['matchId']
+    game.max_games = match['maxGames']
+    game.finished = (match['isFinished'] == '0' ? false : true) || false
+    game.league_id = league_id
+
+    game.save
+
+    build_contestants(match['contestants']['blue'], match['contestants']['red'], game)
   end
 
   def build_contestants(blue, red, game)

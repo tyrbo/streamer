@@ -13,7 +13,8 @@ App.Game = DS.Model.extend({
   live: attr('boolean'),
   finished: attr('boolean'),
   contestants: DS.hasMany('contestant'),
+
   contestant_array: function() {
     return this.get('contestants').toArray();
-  }.property('contestants')
+  }.property('contestants'),
 });

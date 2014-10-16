@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'faraday', '0.8.9'
 gem 'active_model_serializers'
+gem 'pusher'
 
 gem 'puma'
 gem 'skylight'
@@ -23,6 +24,10 @@ gem 'omniauth-twitch'
 gem 'pg'
 
 gem 'figaro'
+
+gem 'sidekiq'
+gem 'twilio-ruby', '~> 3.12'
+gem 'redis'
 
 group :development do
   gem 'spring'

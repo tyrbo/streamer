@@ -67,6 +67,15 @@ li.finished {
   }
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .aatrox, .ahri, .akali, .alistar, .amumu, 
 .anivia, .annie, .ashe, .azir, .blitzcrank, 
 .brand, .braum, .caitlyn, .cassiopeia, .chogath, 
