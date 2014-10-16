@@ -28,6 +28,7 @@ gem 'figaro'
 gem 'sidekiq'
 gem 'twilio-ruby', '~> 3.12'
 gem 'redis'
+gem 'therubyracer', platforms: :ruby
 
 group :development do
   gem 'spring'

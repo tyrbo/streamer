@@ -23,4 +23,5 @@ test:
 
 production:
   <<: *default
+  username: app
   database: stream_prod
