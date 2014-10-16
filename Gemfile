@@ -30,11 +30,12 @@ gem 'twilio-ruby', '~> 3.12'
 gem 'redis'
 gem 'therubyracer', platforms: :ruby
 
+gem 'capistrano-sidekiq'
+
 group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'capistrano'
-  gem 'capistrano-sidekiq'
 end
 
 group :development, :test do

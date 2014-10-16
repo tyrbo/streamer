@@ -1,6 +1,3 @@
-require 'capistrano/sidekiq'
-require 'capistrano/sidekiq/monit'
-
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 

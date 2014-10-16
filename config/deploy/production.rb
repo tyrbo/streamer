@@ -4,7 +4,7 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-#role :app, %w{app@example.com}
+#role :app, %w{app@stream.lolsummoners.com}
 #role :web, %w{app@example.com}
 #role :db,  %w{app@.com}
 
@@ -26,11 +26,10 @@ server 'stream.lolsummoners.com', user: 'app', roles: %w{web app db}, primary: t
 #
 # Global options
 # --------------
-#  set :ssh_options, {
-#    keys: %w(/home/rlisowski/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+set :ssh_options, {
+  keys: %w(/Users/Jon/.ssh/id_rsa),
+  forward_agent: true
+}
 #
 # And/or per server (overrides global)
 # ------------------------------------
