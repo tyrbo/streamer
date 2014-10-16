@@ -57,6 +57,6 @@ class StatsNotifierWorker
 
   def winner
     winner = stats.find({}) { |x| x['winner'] }
-    winner['name']
+    winner && winner['name']
   end
 end
