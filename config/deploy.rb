@@ -85,3 +85,6 @@ namespace :figaro do
     end
   end
 end
+
+after "deploy:started", "figaro:setup"
+after "deploy:symlink:release", "figaro:finalize"
