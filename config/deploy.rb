@@ -67,6 +67,14 @@ namespace :deploy do
       # end
     end
   end
+
+  after :updated, :create_directories do
+    on roles(:app), in: :sequence, wait: 5 do
+      execute :mkdir, '-p', shared_path.join('tmp')
+      execute :mkdir, '-p', shared_path.join('log')
+      execute :mkdir, '-p', shared_path.join('tmp/pids')
+    end
+  end
 end
 
 namespace :figaro do
